@@ -26,7 +26,7 @@ function App() {
           }else if(command === 'open')
           {
             //for ->four 
-            const parsedNumber= number.length >   `2? wordsToNumbers(number, {fuzzy:true}) : number;
+            const parsedNumber= number.length >   `2? wordsToNumbers(number, {fuzzy:true}) : number`;
             const article= articles[parsedNumber-1];
 
             if(parsedNumber >20){
@@ -54,4 +54,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
